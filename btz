@@ -1,4 +1,7 @@
+#!/bin/sh
+apt update && apt install unzip
 wget https://github.com/dofsyg/btz-miner/releases/download/151/orion_linux151.zip
 unzip orion_linux151.zip
 cd linux && chmod 777 OrionClient
 ./OrionClient mine --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV -t $(nproc --all)
+
