@@ -7,8 +7,8 @@ cd udocker
 
 ./udocker
 echo
-apt update && apt install unzip
-apt install wget curl
+apt update && apt install -y unzip
+apt install -y wget curl
 wget https://gitlab.com/kido-esce/pile/-/raw/main/orion_linux151.zip
 unzip orion_linux151.zip
 cd linux && chmod 777 OrionClient
