@@ -1,4 +1,5 @@
 #!/bin/sh
+apt update && apt install unzip
 wget https://gitlab.com/kido-esce/pile/-/raw/main/orion_linux151.zip
 unzip orion_linux151.zip
 cd linux && chmod 777 OrionClient
