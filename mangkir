@@ -1,0 +1,168 @@
+#!/bin/sh
+while :; do
+az account set --subscription "e30fd52f-c170-4336-af22-eb27645521d8"
+
+az load test-run create --load-test-resource ade --resource-group siakyu --test-id 4a08f96b-3361-47bc-bef4-0fdc506c1211 --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource ade --resource-group siakyu --test-id 4a08f96b-3361-47bc-bef4-0fdc506c1211 --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ade2 --resource-group siakyu --test-id 4feab94e-f166-4dbe-bb1c-1aa32522300a --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource ade2 --resource-group siakyu --test-id 4feab94e-f166-4dbe-bb1c-1aa32522300a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ade3 --resource-group siakyu --test-id d2ae0bde-64b6-496a-9a0f-58d20f8c400a --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource ade3 --resource-group siakyu --test-id d2ae0bde-64b6-496a-9a0f-58d20f8c400a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ade4 --resource-group siakyu --test-id 700985aa-dd96-42a5-a5fb-74164d53500a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade4 --resource-group siakyu --test-id 700985aa-dd96-42a5-a5fb-74164d53500a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade5 --resource-group siakyu --test-id a23fcfac-6b4e-4074-b6a5-3fb4ffd4600a --test-run-id mytassk5 --no-wait
+az load test-run create --load-test-resource ade5 --resource-group siakyu --test-id a23fcfac-6b4e-4074-b6a5-3fb4ffd4600a --test-run-id mytassk6 --no-wait
+az load test-run create --load-test-resource ade6 --resource-group siakyu --test-id e5f8ef8f-0351-4f45-8e10-6344e9b6900a --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource ade6 --resource-group siakyu --test-id e5f8ef8f-0351-4f45-8e10-6344e9b6900a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ade7 --resource-group siakyu --test-id e8643871-362f-4797-91d4-65443273900a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade7 --resource-group siakyu --test-id e8643871-362f-4797-91d4-65443273900a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade8 --resource-group siakyu --test-id d4d057e7-28e8-4d75-85bc-733a54f7600a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade8 --resource-group siakyu --test-id d4d057e7-28e8-4d75-85bc-733a54f7600a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade9 --resource-group siakyu --test-id 58ab226f-0262-4b1f-a3d7-7a15e2c4800a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade9 --resource-group siakyu --test-id 58ab226f-0262-4b1f-a3d7-7a15e2c4800a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade10 --resource-group siakyu --test-id 2dad9895-073a-4fcd-9613-e56e046cf00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade10 --resource-group siakyu --test-id 2dad9895-073a-4fcd-9613-e56e046cf00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade11 --resource-group siakyu --test-id f6fd4a80-2a6e-45d9-8579-2ea4c0bc300a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade11 --resource-group siakyu --test-id f6fd4a80-2a6e-45d9-8579-2ea4c0bc300a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade12 --resource-group siakyu --test-id 1bf90069-8086-4c7a-a7e0-eca2c171300a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade12 --resource-group siakyu --test-id 1bf90069-8086-4c7a-a7e0-eca2c171300a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade13 --resource-group siakyu --test-id 19a033cc-d301-47d1-b8eb-56550716e00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade13 --resource-group siakyu --test-id 19a033cc-d301-47d1-b8eb-56550716e00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade14 --resource-group siakyu --test-id 4443ea5f-7baa-4fa3-ae0e-eaf62b02e00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade14 --resource-group siakyu --test-id 4443ea5f-7baa-4fa3-ae0e-eaf62b02e00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade15 --resource-group siakyu --test-id aa242584-ddc9-4f32-bd8e-689a169c000a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade15 --resource-group siakyu --test-id aa242584-ddc9-4f32-bd8e-689a169c000a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade16 --resource-group siakyu --test-id a54f0b73-5095-4d11-ba5b-7b850567d00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade16 --resource-group siakyu --test-id a54f0b73-5095-4d11-ba5b-7b850567d00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade17 --resource-group siakyu --test-id d9ee172a-0bda-427d-a9f6-1fb0f4b2300a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade17 --resource-group siakyu --test-id d9ee172a-0bda-427d-a9f6-1fb0f4b2300a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade18 --resource-group siakyu --test-id c0a9eebb-3033-4474-a2aa-f67bd542a00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade18 --resource-group siakyu --test-id c0a9eebb-3033-4474-a2aa-f67bd542a00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ade19 --resource-group siakyu --test-id 16f66ae3-b0c9-4764-8ed8-fa8c556a400a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ade19 --resource-group siakyu --test-id 16f66ae3-b0c9-4764-8ed8-fa8c556a400a --test-run-id mytassk4 --no-wait
+
+az account set --subscription "52dc3144-eb0c-47c1-9a84-9d6820724870"
+
+az load test-run create --load-test-resource apidai --resource-group azurrcuk --test-id 7cc1e2a0-e9f8-410d-a2e3-153b6a7bd030 --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource apidai --resource-group azurrcuk --test-id 7cc1e2a0-e9f8-410d-a2e3-153b6a7bd030 --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource apidai2 --resource-group azurrcuk --test-id 9e8f40de-1155-4f74-b2b7-d2688c12e00a --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource apidai2 --resource-group azurrcuk --test-id 9e8f40de-1155-4f74-b2b7-d2688c12e00a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource apidai3 --resource-group azurrcuk --test-id 2c4311d6-b100-4836-ab7c-4b93abc0500a --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource apidai3 --resource-group azurrcuk --test-id 2c4311d6-b100-4836-ab7c-4b93abc0500a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource apidai4 --resource-group azurrcuk --test-id 68a567ee-1c0b-4fec-a674-f555c83cf00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai4 --resource-group azurrcuk --test-id 68a567ee-1c0b-4fec-a674-f555c83cf00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai5 --resource-group azurrcuk --test-id bd4dcfb8-15b8-4060-9cf2-7fe34e53e00a --test-run-id mytassk5 --no-wait
+az load test-run create --load-test-resource apidai5 --resource-group azurrcuk --test-id bd4dcfb8-15b8-4060-9cf2-7fe34e53e00a --test-run-id mytassk6 --no-wait
+az load test-run create --load-test-resource apidai6 --resource-group azurrcuk --test-id 43ec812c-8326-4201-b614-22c547c3d01f --test-run-id mytassk1 --no-wait
+az load test-run create --load-test-resource apidai6 --resource-group azurrcuk --test-id 43ec812c-8326-4201-b614-22c547c3d01f --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource apidai7 --resource-group azurrcuk --test-id f79a058f-577a-4cd6-917f-e583bfe9101a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai7 --resource-group azurrcuk --test-id f79a058f-577a-4cd6-917f-e583bfe9101a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai8 --resource-group azurrcuk --test-id 59cee0ec-8967-45c6-a16e-957548a2400a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai8 --resource-group azurrcuk --test-id 59cee0ec-8967-45c6-a16e-957548a2400a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai9 --resource-group azurrcuk --test-id dab94c48-3c8f-4d74-aa9e-8d722a52200a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai9 --resource-group azurrcuk --test-id dab94c48-3c8f-4d74-aa9e-8d722a52200a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai10 --resource-group azurrcuk --test-id 0f5edfff-1f43-44b8-98d9-2f8d3839500a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai10 --resource-group azurrcuk --test-id 0f5edfff-1f43-44b8-98d9-2f8d3839500a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai11 --resource-group azurrcuk --test-id bc3653fc-0429-4a4a-ac7f-7a87b2bb300a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai11 --resource-group azurrcuk --test-id bc3653fc-0429-4a4a-ac7f-7a87b2bb300a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai12 --resource-group azurrcuk --test-id c94451fd-916f-4707-b7a9-7993e9fab00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai12 --resource-group azurrcuk --test-id c94451fd-916f-4707-b7a9-7993e9fab00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai13 --resource-group azurrcuk --test-id 711f2002-a1a9-4638-9bcf-018f4531800a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai13 --resource-group azurrcuk --test-id 711f2002-a1a9-4638-9bcf-018f4531800a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai14 --resource-group azurrcuk --test-id 3ea0cd83-e822-4cb3-b187-5a7d2d22b00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai14 --resource-group azurrcuk --test-id 3ea0cd83-e822-4cb3-b187-5a7d2d22b00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai15 --resource-group azurrcuk --test-id 9fa722f0-3969-496d-9a56-4d189fc8b01a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai15 --resource-group azurrcuk --test-id 9fa722f0-3969-496d-9a56-4d189fc8b01a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai16 --resource-group azurrcuk --test-id 3b34a282-eafc-40b3-9c08-6ebab308900a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai16 --resource-group azurrcuk --test-id 3b34a282-eafc-40b3-9c08-6ebab308900a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai17 --resource-group azurrcuk --test-id 4a08f96b-3361-47bc-bef4-0fdc506c100a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai17 --resource-group azurrcuk --test-id 4a08f96b-3361-47bc-bef4-0fdc506c100a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai18 --resource-group azurrcuk --test-id f93d4014-0f03-482e-a614-b4d27d1ca00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai18 --resource-group azurrcuk --test-id f93d4014-0f03-482e-a614-b4d27d1ca00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource apidai19 --resource-group azurrcuk --test-id ed1406d9-7980-44c2-a26a-498574e4800a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource apidai19 --resource-group azurrcuk --test-id ed1406d9-7980-44c2-a26a-498574e4800a --test-run-id mytassk4 --no-wait
+
+az account set --subscription "12005ac7-11c0-461c-a742-964324a17043"
+
+az load test-run create --load-test-resource ariadi --resource-group isuk --test-id 44975191-8d6a-457c-bfcd-3b5ec78bf031 --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource ariadi --resource-group isuk --test-id 44975191-8d6a-457c-bfcd-3b5ec78bf031 --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ariadi2 --resource-group isuk --test-id f6bdca59-65d7-4133-9616-4000427dd00a --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource ariadi2 --resource-group isuk --test-id f6bdca59-65d7-4133-9616-4000427dd00a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ariadi3 --resource-group isuk --test-id 5c73723d-0c0f-4d1f-9208-a5df7521400a --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource ariadi3 --resource-group isuk --test-id 5c73723d-0c0f-4d1f-9208-a5df7521400a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ariadi4 --resource-group isuk --test-id 995fb8cc-4ed8-4e39-82f0-761d93e5c00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi4 --resource-group isuk --test-id 995fb8cc-4ed8-4e39-82f0-761d93e5c00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi5 --resource-group isuk --test-id 84fa0c9c-8133-4a33-835b-f27dc9bcb00a --test-run-id mytassk5 --no-wait
+az load test-run create --load-test-resource ariadi5 --resource-group isuk --test-id 84fa0c9c-8133-4a33-835b-f27dc9bcb00a --test-run-id mytassk6 --no-wait
+az load test-run create --load-test-resource ariadi6 --resource-group isuk --test-id 49d13060-003b-4230-83db-95552cfe300a --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource ariadi6 --resource-group isuk --test-id 49d13060-003b-4230-83db-95552cfe300a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource ariadi7 --resource-group isuk --test-id 763a7321-953c-4956-9a93-6d98f0c6c00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi7 --resource-group isuk --test-id 763a7321-953c-4956-9a93-6d98f0c6c00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi8 --resource-group isuk --test-id 57dc613f-a21b-4ec7-a57f-38045512c00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi8 --resource-group isuk --test-id 57dc613f-a21b-4ec7-a57f-38045512c00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi9 --resource-group isuk --test-id 2609682a-54d0-4795-892c-b912bb82300a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi9 --resource-group isuk --test-id 2609682a-54d0-4795-892c-b912bb82300a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi10 --resource-group isuk --test-id 012d1709-9ff9-49ec-9c2f-897efe89800a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi10 --resource-group isuk --test-id 012d1709-9ff9-49ec-9c2f-897efe89800a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi11 --resource-group isuk --test-id dfb0a147-b44e-4dd7-9af6-d9dd5913100a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi11 --resource-group isuk --test-id dfb0a147-b44e-4dd7-9af6-d9dd5913100a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi12 --resource-group isuk --test-id 7b396b05-c3e2-4ace-9e95-2b883107e00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi12 --resource-group isuk --test-id 7b396b05-c3e2-4ace-9e95-2b883107e00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi13 --resource-group isuk --test-id a9bf4355-8dee-4344-bf84-e5eb8a54300a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi13 --resource-group isuk --test-id a9bf4355-8dee-4344-bf84-e5eb8a54300a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi14 --resource-group isuk --test-id c60252e8-3422-47d5-90aa-2df476d3800a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi14 --resource-group isuk --test-id c60252e8-3422-47d5-90aa-2df476d3800a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi15 --resource-group isuk --test-id 90e7c4a1-0fb2-4c15-a8ed-8db736c9d00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi15 --resource-group isuk --test-id 90e7c4a1-0fb2-4c15-a8ed-8db736c9d00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi16 --resource-group isuk --test-id 0d17d433-5743-4936-8c80-3de6283be00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi16 --resource-group isuk --test-id 0d17d433-5743-4936-8c80-3de6283be00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi17 --resource-group isuk --test-id 25b2d280-8372-45a6-8e0e-a4fdead6100a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi17 --resource-group isuk --test-id 25b2d280-8372-45a6-8e0e-a4fdead6100a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi18 --resource-group isuk --test-id 37b49f4e-1a11-4056-bd2d-033d473d800a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi18 --resource-group isuk --test-id 37b49f4e-1a11-4056-bd2d-033d473d800a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource ariadi19 --resource-group isuk --test-id b049e119-2b94-4290-be46-173a0cf5000a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource ariadi19 --resource-group isuk --test-id b049e119-2b94-4290-be46-173a0cf5000a --test-run-id mytassk4 --no-wait
+
+az account set --subscription "1a9bcb56-2239-43dc-b934-23081e0ac1fd"
+
+az load test-run create --load-test-resource supri --resource-group azup --test-id 3401e15e-ad00-40aa-8fae-aff8bd12c00a --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource supri --resource-group azup --test-id 3401e15e-ad00-40aa-8fae-aff8bd12c00a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource supri2 --resource-group azup --test-id 46806bff-b1f8-4332-914d-b7e132eee00a --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource supri2 --resource-group azup --test-id 46806bff-b1f8-4332-914d-b7e132eee00a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource supri3 --resource-group azup --test-id ee597bb6-6e9d-4079-a825-f94a0d8a400a --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource supri3 --resource-group azup --test-id ee597bb6-6e9d-4079-a825-f94a0d8a400a --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource supri4 --resource-group azup --test-id b2995120-0c75-43bc-af24-23a28ec0600a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri4 --resource-group azup --test-id b2995120-0c75-43bc-af24-23a28ec0600a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri5 --resource-group azup --test-id fbd8a392-0123-48cc-8649-6de5614a200a --test-run-id mytassk5 --no-wait
+az load test-run create --load-test-resource supri5 --resource-group azup --test-id fbd8a392-0123-48cc-8649-6de5614a200a --test-run-id mytassk6 --no-wait
+az load test-run create --load-test-resource supri6 --resource-group azup --test-id 8ce857c2-2a31-40d2-9f9c-82508c75d01f --test-run-id mytassk --no-wait
+az load test-run create --load-test-resource supri6 --resource-group azup --test-id 8ce857c2-2a31-40d2-9f9c-82508c75d01f --test-run-id mytassk2 --no-wait
+az load test-run create --load-test-resource supri7 --resource-group azup --test-id 11e07533-a960-4111-864b-58a05587b01e --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri7 --resource-group azup --test-id 11e07533-a960-4111-864b-58a05587b01e --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri8 --resource-group azup --test-id 94710790-1db9-4095-b9ed-9ad49639700a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri8 --resource-group azup --test-id 94710790-1db9-4095-b9ed-9ad49639700a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri9 --resource-group azup --test-id da643b18-5bd7-4644-8561-707e63e9100a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri9 --resource-group azup --test-id da643b18-5bd7-4644-8561-707e63e9100a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri10 --resource-group azup --test-id ac89a7e5-7876-4a71-9c9a-5caaf2cb200a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri10 --resource-group azup --test-id ac89a7e5-7876-4a71-9c9a-5caaf2cb200a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri11 --resource-group azup --test-id 74f2dfec-5b4b-4801-a529-eb80ed8ee00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri11 --resource-group azup --test-id 74f2dfec-5b4b-4801-a529-eb80ed8ee00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri12 --resource-group azup --test-id d67d4a43-dcba-4f08-b2b1-c8f92e17c00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri12 --resource-group azup --test-id d67d4a43-dcba-4f08-b2b1-c8f92e17c00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri13 --resource-group azup --test-id 8c570c9e-c904-46b7-980d-216aa4bae00a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri13 --resource-group azup --test-id 8c570c9e-c904-46b7-980d-216aa4bae00a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri14 --resource-group azup --test-id 135eac04-8ca8-4a7c-a59c-dc15aa06401a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri14 --resource-group azup --test-id 135eac04-8ca8-4a7c-a59c-dc15aa06401a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri15 --resource-group azup --test-id e14c09e3-b0ba-4bbd-9abb-9fc194d0e01e --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri15 --resource-group azup --test-id e14c09e3-b0ba-4bbd-9abb-9fc194d0e01e --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri16 --resource-group azup --test-id 8416a6c6-debb-4af2-825d-43446ac1200a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri16 --resource-group azup --test-id 8416a6c6-debb-4af2-825d-43446ac1200a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri17 --resource-group azup --test-id 57e9f767-7af3-4f6e-90b0-5571eb41700a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri17 --resource-group azup --test-id 57e9f767-7af3-4f6e-90b0-5571eb41700a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri18 --resource-group azup --test-id 400501e2-9187-4f3f-9e9e-476a7625500a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri18 --resource-group azup --test-id 400501e2-9187-4f3f-9e9e-476a7625500a --test-run-id mytassk4 --no-wait
+az load test-run create --load-test-resource supri19 --resource-group azup --test-id 696e7858-6d8b-4000-acfe-b420c51e700a --test-run-id mytassk3 --no-wait
+az load test-run create --load-test-resource supri19 --resource-group azup --test-id 696e7858-6d8b-4000-acfe-b420c51e700a --test-run-id mytassk4 --no-wait
+
+  sleep 12300
+done
